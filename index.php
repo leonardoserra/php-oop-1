@@ -4,17 +4,19 @@ class Movie{
     public $year;
 
     public function __construct($title, $year){
-
         $this->title = $title;
         $this->year = $year;
     }
 
-
-
+    public function getMovieInfo(){
+        echo $title . $year;
+    }
 }
 
 
-
+$firstMovie = new Movie('Toy Story', '1995');
+$secondMovie = new Movie('Pokemon', '1998');
+$thirdMovie = new Movie('Avengers', '2010');
 
 
 
