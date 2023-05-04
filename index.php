@@ -2,7 +2,7 @@
 
 
 require __DIR__ . '/Models/Classes.php';
-require __DIR__ . '/Models/Instances.php';
+require __DIR__ . '/db.php';
 
 
 ?>
@@ -19,11 +19,11 @@ require __DIR__ . '/Models/Instances.php';
 <body>
     <?php
 
-        Movie::getMovieInfo($firstMovie);
+        $firstMovie->getMovieInfo();
         echo '<br>';
-        Movie::getMovieInfo($secondMovie);
+        $secondMovie->getMovieInfo();
         echo '<br>';
-        Movie::getMovieInfo($thirdMovie);
+        $thirdMovie->getMovieInfo();
     ?>
     
 </body>

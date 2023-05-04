@@ -8,8 +8,8 @@ class Movie{
         $this->year = $year;
     }
 
-    public static function getMovieInfo($movie){
-        echo $movie->title . ' - ' . $movie->year;
+    public function getMovieInfo(){
+        echo $this->title . ' - ' . $this->year;
     }
 }
 ?>
