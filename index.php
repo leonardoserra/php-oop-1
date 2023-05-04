@@ -8,8 +8,8 @@ class Movie{
         $this->year = $year;
     }
 
-    public function getMovieInfo(){
-        echo $title . $year;
+    public static function getMovieInfo($movie){
+        echo $movie->title . ' - ' . $movie->year;
     }
 }
 
@@ -36,6 +36,9 @@ $thirdMovie = new Movie('Avengers', '2010');
     <title>Document</title>
 </head>
 <body>
+    <?php
+        Movie::getMovieInfo($firstMovie);
+        ?>
     
 </body>
 </html>
