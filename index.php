@@ -18,7 +18,6 @@ require __DIR__ . '/db.php';
 </head>
 <body>
     <?php
-
         $firstMovie->getMovieInfo();
         echo '<br>';
         $secondMovie->getMovieInfo();
