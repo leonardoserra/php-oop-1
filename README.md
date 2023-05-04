@@ -18,5 +18,3 @@ Facciamo attenzione all’organizzazione del codice, suddividendolo in appositi 
 - mettendo ciascuna classe nel proprio file e magari raggruppare tutte le classi in una cartella dedicata che possiamo chiamare Models/  
 - organizzando il layout dividendo la struttura ed i contenuti in file e parziali dedicati.  
 
-  ciao
-  
