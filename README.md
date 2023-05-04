@@ -1,5 +1,5 @@
-# php-oop-1
-
+# php-oop-1  
+  
 nome repo: php-oop-1  
 Oggi pomeriggio ripassate i primi concetti di classe, variabili e metodi d’istanza che abbiamo visto stamattina e create un file index.php in cui:  
  - è definita una classe ‘Movie’  
@@ -17,3 +17,6 @@ Facciamo attenzione all’organizzazione del codice, suddividendolo in appositi 
 - creando un file dedicato ai dati (tipo le array di oggetti) che potremmo chiamare db.php  
 - mettendo ciascuna classe nel proprio file e magari raggruppare tutte le classi in una cartella dedicata che possiamo chiamare Models/  
 - organizzando il layout dividendo la struttura ed i contenuti in file e parziali dedicati.  
+
+  ciao
+  
