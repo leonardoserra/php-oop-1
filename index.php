@@ -18,12 +18,6 @@ $firstMovie = new Movie('Toy Story', '1995');
 $secondMovie = new Movie('Pokemon', '1998');
 $thirdMovie = new Movie('Avengers', '2010');
 
-
-
-
-
-
-
 ?>
 
 
@@ -37,8 +31,13 @@ $thirdMovie = new Movie('Avengers', '2010');
 </head>
 <body>
     <?php
+
         Movie::getMovieInfo($firstMovie);
-        ?>
+        echo '<br>';
+        Movie::getMovieInfo($secondMovie);
+        echo '<br>';
+        Movie::getMovieInfo($thirdMovie);
+    ?>
     
 </body>
 </html>
